@@ -1,0 +1,22 @@
+{
+  "name": "site-chef",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tim2323/exercice-site-chef.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tim2323/exercice-site-chef/issues"
+  },
+  "homepage": "https://github.com/tim2323/exercice-site-chef#readme",
+  "dependencies": {
+    "bootstrap": "^4.2.1"
+  }
+}
