@@ -10,46 +10,43 @@
     <link href="node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet">
     <title>Tim</title>
 </head>
-<body>
-    
-    
+<body data-spy="scroll" data-target="#bg-header" data-offset="50">
     <!-- nav -->
-    <header id="bg-header" id="home">
+    <header id="bg-header">
         <nav class="navbar navbar-expand-lg navbar-light mb-5 fixed-top  ">
             <div class="collapse navbar-collapse text-center" id="navbarNav">
-                <ul class="navbar-nav ml-auto mr-5 border-top border-bottom">
-                    <li class="nav-item active mr-3">
-                        <a class="nav-link text-white " href="#home" >Home <span class="sr-only">(current)</span></a>
+                <ul class="navbar-nav ml-auto mr-5 border-top border-bottom ">
+                    <li class="nav-item  mr-3">
+                        <a class="nav-link active hover-red text-white " href="#home" >Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item active mr-3">
-                        <a class="nav-link text-white" href="#about-us">ABOUT US</a>
+                    <li class="nav-item   mr-3">
+                        <a class="nav-link active text-white" href="#about-us">ABOUT US</a>
                     </li>
-                    <li class="nav-item active mr-3">
-                        <a class="nav-link text-white" href="#menu-list">MENU LIST</a>
+                    <li class="nav-item  mr-3">
+                        <a class="nav-link active text-white" href="#menu-list">MENU LIST</a>
                     </li>
-                    <li class="nav-item active mr-3">
-                        <a class="nav-link text-white" href="#team">TEAM</a>
+                    <li class="nav-item  mr-3">
+                        <a class="nav-link active text-white" href="#team">TEAM</a>
                     </li>
                 </ul>
-                <img src="public/images/logo.png" class="mr-5" alt="">
+                <img src="public/images/logo.png" class="mr-5" alt="logo">
                 <ul class="navbar-nav mr-auto ml- border-top border-bottom ">
-                    <li class="nav-item active mr-3">
-                        <a class="nav-link text-white" href="#reservation">RESERVATION <span class="sr-only">(current)</span></a>
+                    <li class="nav-item  mr-3">
+                        <a class="nav-link active text-white" href="#reservation">RESERVATION <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item active mr-3">
-                        <a class="nav-link text-white" href="#blog">BLOG</a>
+                    <li class="nav-item  mr-3">
+                        <a class="nav-link active text-white" href="#blog">BLOG</a>
                     </li>
-                    <li class="nav-item active mr-3">
-                        <a class="nav-link text-white" href="#testimonials">TESTIMONIALS</a>
+                    <li class="nav-item  mr-3">
+                        <a class="nav-link active text-white" href="#testimonials">TESTIMONIALS</a>
                     </li>
-                    <li class="nav-item active mr-3">
-                        <a class="nav-link text-white" href="#contact">CONTACT US</a>
+                    <li class="nav-item  mr-3">
+                        <a class="nav-link active text-white" href="#contact">CONTACT US</a>
                     </li>
                 </ul>
             </div>
         </nav>
-        
-        <!-- header img -->
+        <!-- header img-bg -->
         <div class=" d-flex align-item-center mx-auto text-center" >
             <div class="mx-auto text-center pt- text-secondary  text-center" >
                 <h1 class="text-center mb-5" id="pt">Whatever your <span class="upper">occasion</span>, <br> <span class="redColor">taste </span> <span class="normaltxt">makes</span> it <br>  one to <span class="normaltxt">remember!</span></h1>
@@ -57,20 +54,19 @@
                 <button type="button" class="btn btn-danger text-center rounded-pill px-4 py-2">LEARN MORE</button>
             </div>
         </div>
-        <div class="poz"></div>
+        <div class="pos-abso"></div>
     </header>
+    <!-- End nav + header-->
     
-    <!-- End nav +header-->
-    
-    <!-- OUR story -->
-    <!-- CONTAINER UNIQUE PROCHAINE SECTION -->
-    <div class="  mx-5 border border-dark mt-5 bg-white  "> 
-        <img src="public/images/box-left-top.png"  style="float:left" alt="">
-        <img src="public/images/box-right-top.png" style="float:right" alt="">
+    <!-- section our story -->
+    <!-- container unique deux prochaine sections -->
+    <div class="  mx-5 border border-dark mt-5 bg-white  "data-spy="scroll" data-target="#bg-header"> 
+        <img src="public/images/box-left-top.png"  style="float:left" alt="box left up">
+        <img src="public/images/box-right-top.png" style="float:right" alt="box right up">
         <div class="row ">
             <div class="col-lg-12 text-center mt-5">
                 <h2 class="redColor2" id="about-us">Our <span class="titre">Story</span></h2>
-                <img src="public/images/decoration_line.png" alt="">
+                <img src="public/images/decoration_line.png" alt="décoration" class="mb-5">
             </div>
         </div>
         <div class="row">
@@ -84,16 +80,13 @@
                 </p>
             </div>
         </div>
+        <!-- end story -->
+        <!-- menu list -->
         <div class="row">
             <div class="col-lg-12 text-center mt-5">
                 <h2 class="redColor2" id="menu-list">Our <span class="titre">menu list</span></h2>
-                <img src="public/images/decoration_line.png" alt="" class="mb-5">
-                
-                <!-- menu list -->        
-                <!-- save -->
-                <!-- save -->
-                <!-- save -->
-                
+                <img src="public/images/decoration_line.png" alt="décoration" class="mb-5">
+                <!-- partie gauche -->
                 <div class="row">
                     <div class="col-2 text-center d-flex justify-content-center ml-5 pr-n5 m-nega">
                         <div class="nav flex-column nav-pills  ml-5 py-n5 mx-2 "  >
@@ -118,81 +111,76 @@
                     <!-- partie 1 -->
                     <div class="col-4 px-1 ">
                         <div class="row border-bottom   mx-auto">
-                            <div class="col-3 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle  mx-2 my-2 cercle1 " style="width: 80%;" alt=""></div>
-                            <div class="col-7 no-padding mt-2"> <h6 class="text-justify mb-0">deer steack with Potatoes  lorem</h6> <p class="text-justify text-muted">Welcome to Risotto restaurant website. Here we try to share our</p> </div>
-                            <div class="col-2 "> <div class=" text-danger  mt-4" style="background:#efefef">$25 </div> </div>
-                        </div>
-                        
-                        <div class="row border-bottom   mx-auto">
-                            <div class="col-3 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle  mx-2 my-2 cercle1 " style="width: 80%;" alt=""></div>
+                            <div class="col-3 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle  mx-2 my-2 cercle1 " style="width: 80%;" alt="menu image"></div>
                             <div class="col-7 no-padding mt-2"> <h6 class="text-justify mb-0">deer steack with Potatoes  lorem</h6> <p class="text-justify text-muted">Welcome to Risotto restaurant website. Here we try to share our</p> </div>
                             <div class="col-2 "> <div class=" text-danger  mt-4" style="background:#efefef">$25 </div> </div>
                         </div>
                         <div class="row border-bottom   mx-auto">
-                            <div class="col-3 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle  mx-2 my-2 cercle1 " style="width: 80%;" alt=""></div>
+                            <div class="col-3 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle  mx-2 my-2 cercle1 " style="width: 80%;" alt="menu image"></div>
                             <div class="col-7 no-padding mt-2"> <h6 class="text-justify mb-0">deer steack with Potatoes  lorem</h6> <p class="text-justify text-muted">Welcome to Risotto restaurant website. Here we try to share our</p> </div>
                             <div class="col-2 "> <div class=" text-danger  mt-4" style="background:#efefef">$25 </div> </div>
                         </div>
                         <div class="row border-bottom   mx-auto">
-                            <div class="col-3 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle  mx-2 my-2 cercle1 " style="width: 80%;" alt=""></div>
+                            <div class="col-3 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle  mx-2 my-2 cercle1 " style="width: 80%;" alt="menu image"></div>
                             <div class="col-7 no-padding mt-2"> <h6 class="text-justify mb-0">deer steack with Potatoes  lorem</h6> <p class="text-justify text-muted">Welcome to Risotto restaurant website. Here we try to share our</p> </div>
                             <div class="col-2 "> <div class=" text-danger  mt-4" style="background:#efefef">$25 </div> </div>
                         </div>
                         <div class="row border-bottom   mx-auto">
-                            <div class="col-3 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle  mx-2 my-2 cercle1 " style="width: 80%;" alt=""></div>
+                            <div class="col-3 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle  mx-2 my-2 cercle1 " style="width: 80%;" alt="menu image"></div>
+                            <div class="col-7 no-padding mt-2"> <h6 class="text-justify mb-0">deer steack with Potatoes  lorem</h6> <p class="text-justify text-muted">Welcome to Risotto restaurant website. Here we try to share our</p> </div>
+                            <div class="col-2 "> <div class=" text-danger  mt-4" style="background:#efefef">$25 </div> </div>
+                        </div>
+                        <div class="row border-bottom   mx-auto">
+                            <div class="col-3 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle  mx-2 my-2 cercle1 " style="width: 80%;" alt="menu image"></div>
                             <div class="col-7 no-padding mt-2"> <h6 class="text-justify mb-0">deer steack with Potatoes  lorem</h6> <p class="text-justify text-muted">Welcome to Risotto restaurant website. Here we try to share our</p> </div>
                             <div class="col-2 "> <div class=" text-danger  mt-4" style="background:#efefef">$25 </div> </div>
                         </div>
                     </div>
-                    
                     <!-- partie 2  -->
                     <div class="col-4 px-1">
                         <div class="row border-bottom   mx-auto">
-                            <div class="col-3 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle  mx-2 my-2 cercle1 " style="width: 80%;" alt=""></div>
+                            <div class="col-3 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle  mx-2 my-2 cercle1 " style="width: 80%;" alt="menu image"></div>
                             <div class="col-7 no-padding mt-2"> <h6 class="text-justify mb-0">deer steack with Potatoes  lorem</h6> <p class="text-justify text-muted">Welcome to Risotto restaurant website. Here we try to share our</p> </div>
                             <div class="col-2 "> <div class=" text-danger  mt-4" style="background:#efefef">$25 </div> </div>
                         </div>
                         <div class="row border-bottom   mx-auto">
-                            <div class="col-3 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle  mx-2 my-2 cercle1 " style="width: 80%;" alt=""></div>
+                            <div class="col-3 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle  mx-2 my-2 cercle1 " style="width: 80%;" alt="menu image"></div>
                             <div class="col-7 no-padding mt-2"> <h6 class="text-justify mb-0">deer steack with Potatoes  lorem</h6> <p class="text-justify text-muted">Welcome to Risotto restaurant website. Here we try to share our</p> </div>
                             <div class="col-2 "> <div class=" text-danger  mt-4" style="background:#efefef">$25 </div> </div>
                         </div>
                         <div class="row border-bottom   mx-auto">
-                            <div class="col-3 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle  mx-2 my-2 cercle1 " style="width: 80%;" alt=""></div>
+                            <div class="col-3 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle  mx-2 my-2 cercle1 " style="width: 80%;" alt="menu image"></div>
                             <div class="col-7 no-padding mt-2"> <h6 class="text-justify mb-0">deer steack with Potatoes  lorem</h6> <p class="text-justify text-muted">Welcome to Risotto restaurant website. Here we try to share our</p> </div>
                             <div class="col-2 "> <div class=" text-danger  mt-4" style="background:#efefef">$25 </div> </div>
                         </div>
                         <div class="row border-bottom   mx-auto">
-                            <div class="col-3 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle  mx-2 my-2 cercle1 " style="width: 80%;" alt=""></div>
+                            <div class="col-3 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle  mx-2 my-2 cercle1 " style="width: 80%;" alt="menu image"></div>
                             <div class="col-7 no-padding mt-2"> <h6 class="text-justify mb-0">deer steack with Potatoes  lorem</h6> <p class="text-justify text-muted">Welcome to Risotto restaurant website. Here we try to share our</p> </div>
                             <div class="col-2 "> <div class=" text-danger  mt-4" style="background:#efefef">$25 </div> </div>
                         </div>
                         <div class="row border-bottom   mx-auto">
-                            <div class="col-3 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle  mx-2 my-2 cercle1 " style="width: 80%;" alt=""></div>
+                            <div class="col-3 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle  mx-2 my-2 cercle1 " style="width: 80%;" alt="menu image"></div>
                             <div class="col-7 no-padding mt-2"> <h6 class="text-justify mb-0">deer steack with Potatoes  lorem</h6> <p class="text-justify text-muted">Welcome to Risotto restaurant website. Here we try to share our</p> </div>
                             <div class="col-2 "> <div class=" text-danger  mt-4" style="background:#efefef">$25 </div> </div>
                         </div>                       
                     </div>                    
                 </div>
-                
                 <!-- end -->
-                
                 <!-- icone coin -->
-                <img src="public/images/decoration_line.png" alt="" class="mt-5">
-                <img src="public/images/box-bottom-left.png" style="float:left" alt="">
-                <img src="public/images/box-bottom_right.png" style="float:right" alt="">
+                <img src="public/images/decoration_line.png" alt="décoration" class="mt-5">
+                <img src="public/images/box-bottom-left.png" style="float:left" alt="box bottom">
+                <img src="public/images/box-bottom_right.png" style="float:right" alt="box-bottom">
             </div>       
         </div>
     </div>
     
     <!-- section meet your team -->
-    
     <section class=" mb-5">
         <div class=" mt-5" style="background:black">
             <div class="row">
                 <div class="col-12 text-center">
                     <h2 class="mt-5"><span class="redColor2" id="team">Meet</span><span class="text-white story"> Our Chef</span></h2>
-                    <img src="public/images/decoration_line.png" alt="">
+                    <img src="public/images/decoration_line.png" alt="décoration">
                 </div>
             </div>
             <div class="row pt-5 ml-5">
@@ -216,16 +204,15 @@
                     <hr class="w-75 bg-white my-0 ml-0">
                     <h6 class="offset-3 text-white mt-1">Lorem ipsum</h6>
                 </section>
-                
-                <!--  container book your table -->
-                
+                <!-- end team -->
+                <!--  section book your table -->
                 <div class="mx-5 border border-dark mt-5 bg-white  "> 
-                    <img src="public/images/box-left-top-grey.png"  style="float:left" alt="">
-                    <img src="public/images/box-right-top-grey.png" style="float:right" alt="">
+                    <img src="public/images/box-left-top-grey.png"  style="float:left" alt="box top">
+                    <img src="public/images/box-right-top-grey.png" style="float:right" alt="box top">
                     <div class="row ">
                         <div class="col-lg-12 text-center mt-5">
                             <h2 class="redColor2" id="reservation">BOOK <span class="titre">your table</span></h2>
-                            <img src="public/images/decoration_line.png" alt="">
+                            <img src="public/images/decoration_line.png" alt="décoration">
                         </div>
                     </div>
                     <div class=" offset-3 w-50 bg-verre rounded">
@@ -249,28 +236,27 @@
                         </div>
                     </div>
                     <!-- end book your table -->
-                    
-                    <!-- our block -->
+                    <!-- section our block -->
                     <div class="row">
-                        <div class="col-lg-12 text-center mt-5">
+                        <div class="col-lg-12 .col-sm-2 text-center mt-5">
                             <h2 class="redColor2" id="blog">Our <span class="titre">block</span></h2>
-                            <img src="public/images/decoration_line.png" alt="">
+                            <img src="public/images/decoration_line.png" alt="décoration">
                             
                             <!-- photos+détails -->
                             <div class="row">
                                 <!-- partie 1 -->
-                                <div class="col-5 offset-1 ">
+                                <div class="col-5 .col-sm-1 offset-1 ">
                                     
                                     <div class=" mt-5">
-                                        <!-- 1 Img-->
+                                        <!-- Img 1-->
                                         <div class="">
                                             <img class="cercle1 rounded" src="public/images/blog_img1.jpg" alt="blog1_img" title="blog1_img">
                                         </div>
-                                        <!-- 1 Date -->
+                                        <!--Date 1-->
                                         <div >
                                             <a href="#" class="btn btn-danger px-4 rounded margin-t"><strong class="font1">12</strong> April 2017 / <strong class="font1">20</strong> Comment / <strong class="font1">35</strong> likes</a>
                                         </div>
-                                        <!-- 1  Details-->
+                                        <!--Details 1-->
                                         <div class="">
                                             <h5 class="text-justify offset-3">Lorem Ipsum</h5>
                                             <p class="text-justify offset-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -278,17 +264,17 @@
                                     </div>
                                 </div>
                                 <!-- partie 2 -->
-                                <div class="col-5 ">
+                                <div class="col-5 .col-sm-1">
                                     <div class=" mt-5">
-                                        <!-- 2 Img-->
+                                        <!-- Img 2-->
                                         <div class="">
                                             <img class="cercle1 rounded" src="public/images/blog_img1.jpg" alt="blog1_img" title="blog1_img">
                                         </div>
-                                        <!-- 2 Date -->
+                                        <!-- Date 2 -->
                                         <div class="">
                                             <a href="#" class="btn btn-danger px-4 rounded margin-t"><strong class="font1">12</strong> April 2017 / <strong class="font1">20</strong> Comment / <strong class="font1">35</strong> likes</a>
                                         </div>
-                                        <!-- 2  Details-->
+                                        <!-- Details 2-->
                                         <div class="">
                                             <h5 class="text-justify offset-3">Lorem Ipsum</h5>
                                             <p class="text-justify offset-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -301,18 +287,18 @@
                                     <a href="#" class="btn btn-danger px-4 py-3 mx-5 rounded-pill ">Know more</a>
                                 </div>
                             </div>
-                            <img src="public/images/box-bottom-left-grey.png" style="float:left" alt="">
-                            <img src="public/images/box-bottom_right-grey.png" style="float:right" alt="">
+                            <img src="public/images/box-bottom-left-grey.png" style="float:left" alt="box bottom">
+                            <img src="public/images/box-bottom_right-grey.png" style="float:right" alt="box bottom">
                         </div>                        
                     </div>                    
                 </div>
-                
+                <!-- end our book -->
                 <!-- section client testimonials -->
                 <div class=" my-5 " id="bg-client">
                     <div class="row">
                         <div class="col-12 text-center mt-5">
                             <h2 class="redColor2" id="testimonials">Client  <span class="titre text-white">Testimonials</span></h2>
-                            <img src="public/images/decoration_line.png" alt="">
+                            <img src="public/images/decoration_line.png" alt="décoration">
                         </div>
                     </div>
                     <div class="row">
@@ -320,9 +306,9 @@
                             <div class="row my-5 ">
                                 <!-- one -->
                                 <div class="col-5 offset-2">
-                                    <div class="row">
+                                    <div class="row mp-5">
                                         <div class="col-3 ">
-                                            <img src="public/images/testimonial1.jpg"  class="rounded-circle   my-3  cercle1 w-100"  alt="">
+                                            <img src="public/images/testimonial1.jpg"  class="rounded-circle   my-3  cercle1 w-100"  alt="image">
                                         </div>
                                         <div class="col-7 rounded border border-light">
                                             <h5 class="text-white my-2">Lorem Ipsum</h5>
@@ -337,9 +323,6 @@
                                 <!-- two -->
                                 <div class="col-5 ">
                                     <div class="row">
-                                        <div class="col-3 ">
-                                            <img src="public/images/testimonial1.jpg"  class="rounded-circle   my-3 cercle1 w-100"  alt="">
-                                        </div>
                                         <div class="col-7 rounded border border-light">
                                             <h5 class="text-white my-2">Lorem Ipsum</h5>
                                             <h6 class="text-danger">Manager</h6>
@@ -348,24 +331,25 @@
                                                 in subascidi dunt ut
                                             </p>
                                         </div>
+                                        <div class="col-3 ">
+                                            <img src="public/images/testimonial1.jpg"  class="rounded-circle   my-3 cercle1 w-100"  alt="image">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                
                 <!-- end client -->
-                
                 <!-- section our contact -->
                 <div class="container mb-5">
                     <div class="row">
                         <div class="col-12 text-center my-4">
                             <h2 class="redColor2" id="contact">Our  <span class="titre">Contact</span></h2>
-                            <img src="public/images/decoration_line.png" alt="">
+                            <img src="public/images/decoration_line.png" alt="décoration">
                         </div>
                     </div>
-                    <div class="row offset-4  mt-3 text-center">
+                    <div class="row offset-4  mt-3  text-center">
                         <div class="col-6 bg-red ml-3 rounded">
                             <div>
                                 <div class="h1">
@@ -385,44 +369,41 @@
                                 <div class="h1">
                                     <i class="fa fa-envelope text-white  icone-contact"></i>
                                 </div>
-                                <p class="text-white my-2">abc@abc.com</p>
+                                <p class="text-white mt-2 mb-5">abc@abc.com</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                
                 <!-- end contact -->
-                
                 <!-- section footer -->
-                
                 <div class="bg-footer">
-                    <div class="poz-2"></div>
+                    <div class="pos-abso2"></div>
                     <div class="container">
                         <div class="row pb-5 pt-2">
                             <div class="col-4">
                                 <h3 class="text-white mt-4 mb-4">ABOUT US</h3>
                                 <p class="text-white ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.........</p>
                                 <div class="h3">
-                                    <a href=""><i class=" mr-4 ico-f fab fa-facebook"></i></a>
-                                    <a href=""><i class=" mr-4 ico-f fab fa-google-plus"></i></a>
-                                    <a href=""><i class=" mr-4 ico-f fab fa-pinterest-p"></i></a>
-                                    <a href=""><i class=" ico-f fab fa-linkedin"></i></a>
+                                    <a href="#"><i class=" mr-4 ico-f fab fa-facebook"></i></a>
+                                    <a href="#"><i class=" mr-4 ico-f fab fa-google-plus"></i></a>
+                                    <a href="#"><i class=" mr-4 ico-f fab fa-pinterest-p"></i></a>
+                                    <a href="#"><i class=" ico-f fab fa-linkedin"></i></a>
                                 </div>
                             </div>
                             <div class="col-4">
                                 <h3 class="text-white mt-4 mb-4">INSTAGRAM</h3>
                                 <div>
                                     <ul class="navbar navbar-expand-lg p-0 ">
-                                        <li><a href=""><img class="mx-1" src="public/images/instragram_gallery_img1.jpg" alt=""></a></li>
-                                        <li><a href=""><img class="mx-1" src="public/images/instragram_gallery_img2.jpg" alt=""></a></li>
-                                        <li><a href=""><img class="mx-1" src="public/images/instragram_gallery_img1.jpg" alt=""></a></li>
-                                        <li><a href=""><img class="mx-1" src="public/images/instragram_gallery_img2.jpg" alt=""></a></li>
+                                        <li><a href="#"><img class="mx-1" src="public/images/instragram_gallery_img1.jpg" alt="image instagram"></a></li>
+                                        <li><a href="#"><img class="mx-1" src="public/images/instragram_gallery_img2.jpg" alt="image instagram"></a></li>
+                                        <li><a href="#"><img class="mx-1" src="public/images/instragram_gallery_img1.jpg" alt="image instagram"></a></li>
+                                        <li><a href="#"><img class="mx-1" src="public/images/instragram_gallery_img2.jpg" alt="image instagram"></a></li>
                                     </ul>
                                     <ul class="navbar navbar-expand-lg p-0"> 
-                                        <li><a href=""><img class="mx-1" src="public/images/instragram_gallery_img2.jpg" alt=""></a></li>
-                                        <li><a href=""><img class="mx-1" src="public/images/instragram_gallery_img1.jpg" alt=""></a></li>
-                                        <li><a href=""><img class="mx-1" src="public/images/instragram_gallery_img2.jpg" alt=""></a></li>
-                                        <li><a href=""><img class="mx-1" src="public/images/instragram_gallery_img1.jpg" alt=""></a></li>
+                                        <li><a href="#"><img class="mx-1" src="public/images/instragram_gallery_img2.jpg" alt="image instagram"></a></li>
+                                        <li><a href="#"><img class="mx-1" src="public/images/instragram_gallery_img1.jpg" alt="image instagram"></a></li>
+                                        <li><a href="#"><img class="mx-1" src="public/images/instragram_gallery_img2.jpg" alt="image instagram"></a></li>
+                                        <li><a href="#"><img class="mx-1" src="public/images/instragram_gallery_img1.jpg" alt="image instagram"></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -430,27 +411,25 @@
                                 <h3 class="text-white mt-4 mb-3">POPULAR TAGS</h3>
                                 <div>
                                     <ul class="navbar navbar-expand-lg p-0 mb-4 mt-4 ">
-                                        <li><a class="" href=""><span class="f-txt text-white border border-white bg-red rounded-pill px-3 py-2 mr-4 "> Restaurant </span></a></li>
-                                        <li><a class="" href=""><span class="f-txt text-white border border-white bg-red rounded-pill px-3 py-2 mr-4 "> Reponsive design </span></a></li>
-                                        <li><a class="" href=""><span class="f-txt text-white border border-white bg-red rounded-pill px-3 py-2 "> Hôtel </span></a></li>
+                                        <li><a class="" href="#"><span class="f-txt text-white border border-white bg-red rounded-pill px-3 py-2 mr-4 "> Restaurant </span></a></li>
+                                        <li><a class="" href="#"><span class="f-txt text-white border border-white bg-red rounded-pill px-3 py-2 mr-4 "> Reponsive design </span></a></li>
+                                        <li><a class="" href="#"><span class="f-txt text-white border border-white bg-red rounded-pill px-3 py-2 "> Hôtel </span></a></li>
                                     </ul>
                                     <ul class="navbar navbar-expand-lg p-0 mb-4 ">
-                                        <li><a class="" href=""><span class="f-txt text-white border border-white bg-red rounded-pill px-3 py-2 mr-3 "> Blog section </span></a></li>
-                                        <li><a class="" href=""><span class="f-txt text-white border border-white bg-red rounded-pill px-3 py-2 mr-3 "> SEO </span></a></li>
-                                        <li><a class="" href=""><span class="f-txt text-white border border-white bg-red rounded-pill px-3 py-2 "> Cuisine </span></a></li>
+                                        <li><a class="" href="#"><span class="f-txt text-white border border-white bg-red rounded-pill px-3 py-2 mr-3 "> Blog section </span></a></li>
+                                        <li><a class="" href="#"><span class="f-txt text-white border border-white bg-red rounded-pill px-3 py-2 mr-3 "> SEO </span></a></li>
+                                        <li><a class="" href="#"><span class="f-txt text-white border border-white bg-red rounded-pill px-3 py-2 "> Cuisine </span></a></li>
                                     </ul>
                                     <ul class="navbar navbar-expand-lg p-0 "> 
-                                        <li><a class="" href=""><span class="f-txt text-white  border border-white bg-red rounded-pill px-3 py-2 mr-3 "> Graphic </span></a></li>
-                                        <li><a class="" href=""><span class="f-txt text-white  border border-white bg-red rounded-pill px-3 py-2 "> Food </span></a></li>
+                                        <li><a class="" href="#"><span class="f-txt text-white  border border-white bg-red rounded-pill px-3 py-2 mr-3 "> Graphic </span></a></li>
+                                        <li><a class="" href="#"><span class="f-txt text-white  border border-white bg-red rounded-pill px-3 py-2 "> Food </span></a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                
                 <!-- end footer -->
-                
                 <!-- copyright -->
                 <div class="footer bg-red  border-top  border-white ">
                     <div class="row ">
@@ -459,11 +438,6 @@
                         </div>
                     </div>
                 </div>
-                
                 <!-- end copyright -->
-                
-                <!-- TEST SAVE 1 -->
-                <!-- TEST SAVE 2 -->
-                <!-- TEST SAVE 3 -->
             </body>
             </html>
