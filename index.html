@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="public/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet">
     <title>Tim</title>
 </head>
 <body>
@@ -88,80 +87,91 @@
         <div class="row">
             <div class="col-lg-12 text-center mt-5">
                 <h2 class="redColor2" id="menu-list">Our <span class="titre">menu list</span></h2>
-                <img src="public/images/decoration_line.png" alt="">
+                <img src="public/images/decoration_line.png" alt="" class="mb-5">
                 
                 <!-- menu list -->        
+                <!-- save -->
+                <!-- save -->
+                <!-- save -->
                 
                 <div class="row">
-                    <div class="col text-center d-flex justify-content-center  ml-5 ">
-                        <div class="nav flex-column nav-pills border-right "  >
-                            <i class="fas fa-mug-hot icone ml-4 my-0 text-center ico couleur-r "></i>
-                            <p class="nav-link border-bottom  font mt-3"  data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">BreakFast</p>
-                            <i class="fas fa-utensils icone ml-4 my-0 text-center  ico couleur-g"></i>
-                            <p class="nav-link border-bottom  font mt-3 "  data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Lunch</p>
-                            <i class="fas fa-concierge-bell icone ml-4 my-0 text-center ico couleur-g"></i>
-                            <p class="nav-link border-bottom  font mt-3 "  data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Snacks</p>
-                            <i class="fas fa-mug-hot icone ml-4 my-0 text-center ico couleur-g"></i>
-                            <p class="nav-link border-bottom  font mt-3 "data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Dinner</p>
+                    <div class="col-2 text-center d-flex justify-content-center ml-5 pr-n5 m-nega">
+                        <div class="nav flex-column nav-pills  ml-5 py-n5 mx-2 "  >
+                            <div class=" red h-border my-1 ">
+                                <i class="fas fa-mug-hot icone  my-0 text-center ico couleur-r "></i>
+                                <p class="nav-link border-bottom  font mt-1 "  data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">BreakFast</p>
+                            </div>
+                            <div class="h-border2 my-1 ">
+                                <i class="fas fa-utensils  my-0 text-center ico "></i>
+                                <p class="nav-link font my-1 b-nega "  data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Lunch</p>
+                            </div>
+                            <div class="h-border2 my-1 ">
+                                <i class="fas fa-concierge-bell   my-0 text-center ico "></i>
+                                <p class="nav-link font my-1 b-nega "  data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Snack</p>
+                            </div>
+                            <div class="h-border2 my-1 ">
+                                <i class="fas fa-mug-hot   my-0 text-center ico "></i>
+                                <p class="nav-link font my-1 b-nega "  data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Dinner</p>
+                            </div>
                         </div>
                     </div>
                     <!-- partie 1 -->
-                    <div class="col-5  ">
-                        <div class="row border-bottom w-100">
-                            <div class="col-2 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle  mx-2 my-2 cercle1 " style="width: 80%;" alt=""></div>
-                            <div class="col-6 no-padding mt-2"> <h6 class="text-justify mb-0">deer steack with Potatoes  lorem</h6> <p class="text-justify text-muted">Welcome to Risotto restaurant website. Here we try to share our</p> </div>
+                    <div class="col-4 px-1 ">
+                        <div class="row border-bottom   mx-auto">
+                            <div class="col-3 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle  mx-2 my-2 cercle1 " style="width: 80%;" alt=""></div>
+                            <div class="col-7 no-padding mt-2"> <h6 class="text-justify mb-0">deer steack with Potatoes  lorem</h6> <p class="text-justify text-muted">Welcome to Risotto restaurant website. Here we try to share our</p> </div>
                             <div class="col-2 "> <div class=" text-danger  mt-4" style="background:#efefef">$25 </div> </div>
                         </div>
                         
-                        <div class="row border-bottom w-100">
-                            <div class="col-2 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle cercle1 mx-2 my-2" style="width: 80%;" alt=""></div>
-                            <div class="col-6 no-padding  mt-2"> <h6 class="text-justify mb-0">deer steack with Potatoes  lorem</h6> <p class="text-justify text-muted">Welcome to Risotto restaurant website. Here we try to share our</p> </div>
+                        <div class="row border-bottom   mx-auto">
+                            <div class="col-3 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle  mx-2 my-2 cercle1 " style="width: 80%;" alt=""></div>
+                            <div class="col-7 no-padding mt-2"> <h6 class="text-justify mb-0">deer steack with Potatoes  lorem</h6> <p class="text-justify text-muted">Welcome to Risotto restaurant website. Here we try to share our</p> </div>
                             <div class="col-2 "> <div class=" text-danger  mt-4" style="background:#efefef">$25 </div> </div>
                         </div>
-                        <div class="row border-bottom w-100">
-                            <div class="col-2 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle cercle1 mx-2 my-2" style="width: 80%;" alt=""></div>
-                            <div class="col-6 no-padding mt-2"> <h6 class="text-justify mb-0">deer steack with Potatoes  lorem</h6> <p class="text-justify text-muted">Welcome to Risotto restaurant website. Here we try to share our</p> </div>
-                            <div class="col-2"> <div class=" text-danger  mt-4" style="background:#efefef">$25 </div> </div>
-                        </div>
-                        <div class="row border-bottom w-100">
-                            <div class="col-2 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle cercle1 mx-2 my-2" style="width: 80%;" alt=""></div>
-                            <div class="col-6 no-padding mt-2"> <h6 class="text-justify mb-0">deer steack with Potatoes  lorem</h6> <p class="text-justify text-muted">Welcome to Risotto restaurant website. Here we try to share our</p> </div>
+                        <div class="row border-bottom   mx-auto">
+                            <div class="col-3 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle  mx-2 my-2 cercle1 " style="width: 80%;" alt=""></div>
+                            <div class="col-7 no-padding mt-2"> <h6 class="text-justify mb-0">deer steack with Potatoes  lorem</h6> <p class="text-justify text-muted">Welcome to Risotto restaurant website. Here we try to share our</p> </div>
                             <div class="col-2 "> <div class=" text-danger  mt-4" style="background:#efefef">$25 </div> </div>
                         </div>
-                        <div class="row border-bottom w-100">
-                            <div class="col-2 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle cercle1 mx-2 my-2" style="width: 80%;" alt=""></div>
-                            <div class="col-6 no-padding mt-2"> <h6 class="text-justify  mb-0">deer steack with Potatoes  lorem</h6> <p class="text-justify text-muted">Welcome to Risotto restaurant website. Here we try to share our</p> </div>
-                            <div class="col-2 "> <div class=" text-danger  mt-4" style="background:#efefef">$25   </div> </div>
+                        <div class="row border-bottom   mx-auto">
+                            <div class="col-3 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle  mx-2 my-2 cercle1 " style="width: 80%;" alt=""></div>
+                            <div class="col-7 no-padding mt-2"> <h6 class="text-justify mb-0">deer steack with Potatoes  lorem</h6> <p class="text-justify text-muted">Welcome to Risotto restaurant website. Here we try to share our</p> </div>
+                            <div class="col-2 "> <div class=" text-danger  mt-4" style="background:#efefef">$25 </div> </div>
+                        </div>
+                        <div class="row border-bottom   mx-auto">
+                            <div class="col-3 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle  mx-2 my-2 cercle1 " style="width: 80%;" alt=""></div>
+                            <div class="col-7 no-padding mt-2"> <h6 class="text-justify mb-0">deer steack with Potatoes  lorem</h6> <p class="text-justify text-muted">Welcome to Risotto restaurant website. Here we try to share our</p> </div>
+                            <div class="col-2 "> <div class=" text-danger  mt-4" style="background:#efefef">$25 </div> </div>
                         </div>
                     </div>
                     
                     <!-- partie 2  -->
-                    <div class="col-5">
-                        <div class="row border-bottom w-100">
-                            <div class="col-2 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle cercle1 mx-2 my-2" style="width: 80%;" alt=""></div>
-                            <div class="col-6 no-padding mt-2"> <h6 class="text-justify mb-0">deer steack with Potatoes  lorem</h6> <p class="text-justify text-muted">Welcome to Risotto restaurant website. Here we try to share our</p> </div>
-                            <div class="col-2 "> <div class=" text-danger  mt-4" style="background:#efefef">$35   </div> </div>
+                    <div class="col-4 px-1">
+                        <div class="row border-bottom   mx-auto">
+                            <div class="col-3 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle  mx-2 my-2 cercle1 " style="width: 80%;" alt=""></div>
+                            <div class="col-7 no-padding mt-2"> <h6 class="text-justify mb-0">deer steack with Potatoes  lorem</h6> <p class="text-justify text-muted">Welcome to Risotto restaurant website. Here we try to share our</p> </div>
+                            <div class="col-2 "> <div class=" text-danger  mt-4" style="background:#efefef">$25 </div> </div>
                         </div>
-                        <div class="row border-bottom w-100"">
-                            <div class="col-2 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle cercle1 mx-2 my-2" style="width: 80%;" alt=""></div>
-                            <div class="col-6 no-padding mt-2"> <h6 class="text-justify mb-0">deer steack with Potatoes  lorem</h6> <p class="text-justify text-muted">Welcome to Risotto restaurant website. Here we try to share our</p> </div>
-                            <div class="col-2 "> <div class=" text-danger  mt-4" style="background:#efefef">$35  </div> </div>
+                        <div class="row border-bottom   mx-auto">
+                            <div class="col-3 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle  mx-2 my-2 cercle1 " style="width: 80%;" alt=""></div>
+                            <div class="col-7 no-padding mt-2"> <h6 class="text-justify mb-0">deer steack with Potatoes  lorem</h6> <p class="text-justify text-muted">Welcome to Risotto restaurant website. Here we try to share our</p> </div>
+                            <div class="col-2 "> <div class=" text-danger  mt-4" style="background:#efefef">$25 </div> </div>
                         </div>
-                        <div class="row border-bottom w-100"">
-                            <div class="col-2 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle cercle1 mx-2 my-2" style="width: 80%;" alt=""></div>
-                            <div class="col-6 no-padding mt-2"> <h6 class="text-justify mb-0">deer steack with Potatoes  lorem</h6> <p class="text-justify text-muted">Welcome to Risotto restaurant website. Here we try to share our</p> </div>
-                            <div class="col-2 "> <div class=" text-danger  mt-4" style="background:#efefef">$35  </div> </div>
+                        <div class="row border-bottom   mx-auto">
+                            <div class="col-3 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle  mx-2 my-2 cercle1 " style="width: 80%;" alt=""></div>
+                            <div class="col-7 no-padding mt-2"> <h6 class="text-justify mb-0">deer steack with Potatoes  lorem</h6> <p class="text-justify text-muted">Welcome to Risotto restaurant website. Here we try to share our</p> </div>
+                            <div class="col-2 "> <div class=" text-danger  mt-4" style="background:#efefef">$25 </div> </div>
                         </div>
-                        <div class="row border-bottom w-100"">
-                            <div class="col-2 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle cercle1 mx-2 my-2" style="width: 80%;" alt=""></div>
-                            <div class="col-6 no-padding mt-2"> <h6 class="text-justify mb-0">deer steack with Potatoes  lorem</h6> <p class="text-justify text-muted">Welcome to Risotto restaurant website. Here we try to share our</p> </div>
-                            <div class="col-2 "> <div class=" text-danger  mt-4" style="background:#efefef">$35  </div> </div>
+                        <div class="row border-bottom   mx-auto">
+                            <div class="col-3 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle  mx-2 my-2 cercle1 " style="width: 80%;" alt=""></div>
+                            <div class="col-7 no-padding mt-2"> <h6 class="text-justify mb-0">deer steack with Potatoes  lorem</h6> <p class="text-justify text-muted">Welcome to Risotto restaurant website. Here we try to share our</p> </div>
+                            <div class="col-2 "> <div class=" text-danger  mt-4" style="background:#efefef">$25 </div> </div>
                         </div>
-                        <div class="row border-bottom w-100"">
-                            <div class="col-2 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle cercle1 mx-2 my-2" style="width: 80%;" alt=""></div>
-                            <div class="col-6 no-padding mt-2"> <h6 class="text-justify mb-0">deer steack with Potatoes  lorem</h6> <p class="text-justify text-muted">Welcome to Risotto restaurant website. Here we try to share our</p> </div>
-                            <div class="col-2 "> <div class=" text-danger  mt-4" style="background:#efefef">$35  </div> </div>
-                        </div>                        
+                        <div class="row border-bottom   mx-auto">
+                            <div class="col-3 no-padding"><img src="public/images/menu_image_1.jpg" class="rounded-circle  mx-2 my-2 cercle1 " style="width: 80%;" alt=""></div>
+                            <div class="col-7 no-padding mt-2"> <h6 class="text-justify mb-0">deer steack with Potatoes  lorem</h6> <p class="text-justify text-muted">Welcome to Risotto restaurant website. Here we try to share our</p> </div>
+                            <div class="col-2 "> <div class=" text-danger  mt-4" style="background:#efefef">$25 </div> </div>
+                        </div>                       
                     </div>                    
                 </div>
                 
@@ -393,10 +403,10 @@
                                 <h3 class="text-white mt-4 mb-4">ABOUT US</h3>
                                 <p class="text-white ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.........</p>
                                 <div class="h3">
-                                    <a href=""><i class=" mr-4 ico-f fa fa-facebook"></i></a>
-                                    <a href=""><i class=" mr-4 ico-f fa fa-google-plus"></i></a>
-                                    <a href=""><i class=" mr-4 ico-f fa fa-pinterest-p"></i></a>
-                                    <a href=""><i class=" ico-f fa fa-linkedin"></i></a>
+                                    <a href=""><i class=" mr-4 ico-f fab fa-facebook"></i></a>
+                                    <a href=""><i class=" mr-4 ico-f fab fa-google-plus"></i></a>
+                                    <a href=""><i class=" mr-4 ico-f fab fa-pinterest-p"></i></a>
+                                    <a href=""><i class=" ico-f fab fa-linkedin"></i></a>
                                 </div>
                             </div>
                             <div class="col-4">
@@ -451,7 +461,7 @@
                 </div>
                 
                 <!-- end copyright -->
-
+                
                 <!-- TEST SAVE 1 -->
                 <!-- TEST SAVE 2 -->
                 <!-- TEST SAVE 3 -->

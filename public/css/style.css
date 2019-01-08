@@ -56,6 +56,7 @@ h2 {
 }
 .ico{
     font-size: 60px;
+    color: gray;
 }
 .cercle1 {
     border: 5px solid #eaeaea;
@@ -89,7 +90,7 @@ h2 {
     font-size: 40px;
 }
 .ico-f{
-    font-size: 80vh;
+    font-size: 4vh;
     color: white;
 }
 ul {
@@ -121,4 +122,20 @@ ul {
 }
 .bord-r{
     border-right: solid 5px #c42d40;
+}
+.m-nega {
+    margin-right: -42px;
+}
+.h-border{
+    height: 100px;
+    border-right: solid 5px #c42d40;
+    border-bottom: dashed 1px black;
+    
+}
+.h-border2 {
+    border-right: solid 1px rgb(163, 163, 163);
+    border-bottom: solid 1px rgb(163, 163, 163);
+}
+.b-nega{
+    margin-bottom: -10px;
 }
