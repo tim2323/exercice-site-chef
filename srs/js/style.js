@@ -17,9 +17,9 @@ window.onscroll = function(){
     scrollEventActive(1200, 2100, 'l-menu');
     scrollEventActive(2100, 2700, 'l-team');
     scrollEventActive(2700, 3700, 'l-reserve');
-    scrollEventActive(3700, 4600, 'l-blog');
-    scrollEventActive(4600, 5200, 'l-testimonials');
-    scrollEventActive(5200, 7000, 'l-contact');
+    scrollEventActive(3700, 4300, 'l-blog');
+    scrollEventActive(4300, 4800, 'l-testimonials');
+    scrollEventActive(4800, 7000, 'l-contact');
  
  };
  
