@@ -16,8 +16,8 @@ window.onscroll = function(){
     scrollEventActive(600, 1200, 'l-about');
     scrollEventActive(1200, 2100, 'l-menu');
     scrollEventActive(2100, 2700, 'l-team');
-    scrollEventActive(2700, 3700, 'l-reserve');
-    scrollEventActive(3700, 4300, 'l-blog');
+    scrollEventActive(2700, 3600, 'l-reserve');
+    scrollEventActive(3600, 4300, 'l-blog');
     scrollEventActive(4300, 4800, 'l-testimonials');
     scrollEventActive(4800, 7000, 'l-contact');
  
